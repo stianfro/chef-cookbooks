@@ -19,3 +19,9 @@ version '0.1.0'
 # source_url 'https://github.com/<insert_org_here>/froy-mattermost' if respond_to?(:source_url)
 
 depends 'mattermost', '~> 0.1.7'
+depends 'apt'
+depends 'ark'
+depends 'database'
+depends 'mysql', '~> 6.0'
+depends 'mysql2_chef_gem'
+
