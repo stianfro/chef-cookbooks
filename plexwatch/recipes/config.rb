@@ -24,5 +24,5 @@ template '/opt/plexWatch/config.pl' do
 end
 
 cron 'plexWatch' do
-  command '/opt/plexWatch/config.pl --recently_added=movie,tv'
+  command '/opt/plexWatch/plexWatch.pl --recently_added=movie,tv'
 end
