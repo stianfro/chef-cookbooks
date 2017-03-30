@@ -18,6 +18,9 @@ end
 template '/opt/plexWatch/config.pl' do
   source 'config.erb'
   action :create
+  variables(
+    provider_key: node['provider_key']['pushbullet']
+  )
 end
 
 cron 'plexWatch' do
