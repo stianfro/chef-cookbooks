@@ -20,7 +20,6 @@ template '/opt/plexWatch/config.pl' do
   action :create
 end
 
-cron 'name' do
-  minute '1'
+cron 'plexWatch' do
   command '/opt/plexWatch/config.pl --recently_added=movie,tv'
 end
