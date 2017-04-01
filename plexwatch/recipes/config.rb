@@ -17,7 +17,7 @@ end
 
 template '/opt/plexWatch/config.pl' do
   source 'config.erb'
-  action :create
+  action :create_if_missing
   variables(
     provider_key: node['plexwatch']['key']
   )
