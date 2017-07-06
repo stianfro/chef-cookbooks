@@ -1,4 +1,3 @@
-# chef-cookbooks
+# froy-mattermost
 
-
-repository for chef cookbooks!
+TODO: Using supermarket cookbook for personal use
